@@ -1,0 +1,39 @@
+@charset "utf-8";
+*{margin:0px;}
+body{background-color:#ccc;margin-top:10px;font-family: "宋体"; font-size: 10pt;}
+a { text-decoration: none;}
+a:link{ color: #0066cc; }
+a:visited{ color:#0066cc; }
+#main{width:860px;margin:0px auto;}
+#header{ font-family: "华文行楷"; font-size: 36px; font-weight: bold; color: #006666; background-color: #CCCCCC; text-align: center; border: 1px inset #666666; height: 120px; width: 766px; height:183px; vertical-align: middle; background-image: url(../images/banner.jpg); background-repeat: no-repeat;  }
+#mainnav { padding-top: 3px;padding-bottom: 3px; width: 766px; height:26px;background-color: #E7E7E7; }
+#mainnav table { background-color: #E7E7E7; text-align: center; font-family: "宋体"; font-size: 10pt; line-height: 20px; width: 766px;}
+#mainnav a {  display: block; text-decoration:none;}
+#mainnav a:hover { color: #fff; display: block; }
+.td_border { border-right-width: 1px;  border-top-style: none; border-right-style: solid; border-bottom-style: none; border-left-style: none; border-right-color: #336600;  }
+#addstu { font-size: 10pt; text-align: center; border: thin inset #CCCCCC;  float: none;  padding: 2px; width: 300px; background-color: #CCCCCC;}
+#stuinfo,#scoreinfo { font-size: 9pt; padding: 2px; width: 500px; border: thin outset #666666; background-color: #CCCC00; text-align: center;  }
+.td_font_red { color: #FF0000; }
+
+#menu { float: left; padding: 0px; width: 200px; border: 2px solid #CCCCCC; margin-top: 10px; margin-right: 3px; }
+#mleft { float:left;width:10px;background-color: #00cc00;height:500px;}
+#mright { float:left;width:186px;height:500px;background-color: #00cc00;}
+#mright  ul{margin:0px;padding:0px;}
+#mright  ul li{ height: 26px;  line-height: 26px; list-style-type:none;background-color: #00cc00;border-bottom:solid 1px #ffffff;}
+#mright  ul li ul li{padding-left:20px;height: 26px;  line-height: 26px; list-style-type:none;background-color: #00cc00;}
+#mright  a:link{ color: #000066; }
+#mright  a:visited{ color: #000066; }
+#mright  a:hover{ color: #FFFF99; }
+
+#mright  a{ text-decoration: none;}
+
+
+
+.table_border_green{ border:1px inset #008800 ;font-size: 10pt; }
+#stuinfo table { font-family: "宋体", "Times New Roman"; width:500px;font-size: 10pt; text-align: center; border: thin solid #000066;margin: auto;  }
+#addstu table{ font-family: "宋体", "Times New Roman"; width:250px;font-size: 10pt; text-align: center; border: thin solid #000066;margin: auto;   }
+.table_bg_white { background-color: #FFFFFF; }
+#right { height: 500px; width: 560px; border-left-width: 1px; border-left-style: inset; border-left-color: #E7E7E7; margin-top: 10px; margin-bottom: 5px;margin-left: 205px; padding-left:20px}
+
+#loginmain{background:url(../images/login_background.jpg);width:1003px;height:613px;margin:auto auto;position:relative;}
+#login{width:280px;height:160px;position:absolute;top:250px;left:460px;}

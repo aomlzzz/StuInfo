@@ -1,0 +1,42 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'left.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+
+    <link href="<%=basePath %>css/style1.css" rel="stylesheet" type="text/css">
+
+  </head>
+  
+  <body>
+  	
+    <div id="menu">
+    	<div id="mleft"></div> <!-- mleft结束 -->
+    	<div id="mright">
+    	<ul>
+    		<li>&nbsp&nbsp
+    			<ul>
+    				<li>>><a href="teacher/queryScore.jsp">成绩信息查询</a></li>
+    				<li>>><a href="teacher/addScore.jsp">成绩信息录入</a></li>
+    				<li>>><a href="teacher/updateScore.jsp">成绩信息修改</a></li>
+    			</ul>
+    		</li>
+    		
+    	</ul>
+		</div> <!-- mright结束 -->
+    </div> <!-- menu结束 -->
+  </body>
+</html>
